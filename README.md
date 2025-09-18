@@ -26,19 +26,19 @@ A Java application implementing a Singly Linked List with operations such as del
 ## Usage
 1. Initialize a new Singly Linked List:
    ```java
-   SinglyLinkedList myList = new SinglyLinkedList();
+   LinkedList myList = new LinkedList();
    ```
 2. Insert a node at the beginning:
    ```java
-   myList.insertAtBeginning(data);
+   myList.addbegin(data);
    ```
 3. Delete a node:
    ```java
-   myList.deleteNode(data);
+   myList.delete(i);// delete the element at i'th index ; 1-based indexing
    ```
 4. Get the length of the list:
    ```java
-   int length = myList.getLength();
+   int length = myList.length(head);
    ```
 
 ## Dependencies
